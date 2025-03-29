@@ -10,7 +10,7 @@ terraform {
     bucket = "prami-dev"
     key    = "cicd-tools"
     region = "us-east-1"
-    dynamodb_table = "prami-locking-dev"
+    dynamodb_table = "infra-lock-2"
   }
 }
 
